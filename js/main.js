@@ -153,7 +153,7 @@ function inicio() {
     tituloInicio.className = "tituloInicio";
 
     const imgPrincipal = document.createElement("img");
-    imgPrincipal.src = '../img/collage2.png';
+    imgPrincipal.src = './img/collage2.png';
     imgPrincipal.className = "img-principal";
 
     const btnInicio = document.createElement("button");
