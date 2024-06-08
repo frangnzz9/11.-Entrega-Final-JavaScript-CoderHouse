@@ -13,7 +13,7 @@ const vaciarCarrito1 = document.getElementById("vaciarCarrito");
 
 async function obtenerProductos() {
     try {
-        const response = await fetch('/js/data.json');
+        const response = await fetch('./js/data.json');
         if (!response.ok) {
             throw new Error('Error al obtener los datos');
         };
